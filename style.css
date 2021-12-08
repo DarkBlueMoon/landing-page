@@ -6,6 +6,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  gap: 80px;
 }
 
 /* ----- HEADER ----- */
@@ -25,7 +26,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 ul {
@@ -88,7 +88,7 @@ button {
 .information {
   /* background-color: #fff; */
   /* background-color: #e5e7eb; */
-  padding: 50px 0;
+  /* padding: 50px 0; */
   width: 100%;
 }
 
@@ -139,4 +139,23 @@ button {
   align-self: flex-end;
   font-weight: 600;
   font-style: normal;
+}
+
+/* ----- CALL TO ACTION/SIGN UP ----- */
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  background: #3882f6;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+.highlight {
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.secondary {
+  color: #e5e7eb;
 }
