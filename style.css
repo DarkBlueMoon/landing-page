@@ -131,7 +131,7 @@ button {
 .quote {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -158,4 +158,12 @@ button {
 
 .secondary {
   color: #e5e7eb;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 30px;
+  text-align: center;
 }
