@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 html {
   box-sizing: border-box;
@@ -13,9 +13,12 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.hero {
+.hero-container {
   background-color: #1f2937;
 }
 
@@ -23,12 +26,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 ul.right-side {
@@ -41,6 +45,44 @@ ul.right-side {
 
 a {
   text-decoration: none;
+}
+
+a,
+.secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.secondary-text {
+  margin: 0;
+}
+
+.hero-button {
+  background: #3882f6;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 4px 24px;
+  margin-top: 10px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 130px 50px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-left-side {
+  width: 460px;
+}
+
+.hero-right-side img {
+  height: 240px;
 }
