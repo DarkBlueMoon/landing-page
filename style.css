@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 html {
   box-sizing: border-box;
@@ -20,6 +20,13 @@ body {
 
 .hero-container {
   background-color: #1f2937;
+}
+
+.hero-container,
+.quotes-container,
+.call-to-action,
+.footer {
+  flex: 1;
 }
 
 .header {
@@ -70,7 +77,7 @@ a,
 .hero-content {
   display: flex;
   justify-content: space-around;
-  margin: 0 130px 50px;
+  margin: 0 130px;
 }
 
 .main-text {
@@ -113,6 +120,30 @@ a,
   height: 200px;
 }
 
-.items {
-  margin: 0 130px 50px;
+.quotes-container {
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+.quotes-element {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.quotes-element .quote-text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quotes-element .quote-author {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 0 auto;
 }
